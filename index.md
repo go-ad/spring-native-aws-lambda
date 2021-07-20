@@ -344,6 +344,8 @@ docker cp spring-native-aws-lambda:app/target/ .
 - Test, and
 - Et voila! It runs with 500 ms for cold start (Not bad for spring boot application, I guess)
 
+**NOTE** We need to build inside an os architecture as close the lambda's os as possible. This's because the native image will be built to that architecture. Meaning, if we build it on MacOS it would not run on Amazon Linux. This is why we are building instead an `amazonlinux` container using the `Dockerfile`
+
 ### Testing locally
 You can access the application on whatever port you started it on using http request
 ```shell
