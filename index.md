@@ -257,6 +257,7 @@ The application is configured like any other spring boot application with very f
 - It uses `@SpringBootConfiguration` instead of `@SpringBootApplication`
 - `FunctionalSpringApplication#run(Class, String[])` instead of `SpringApplication#run(Class, String[])`
 - We made a native hint to our application to serialise our models properly
+
 ```java
 @SerializationHint(types = {Request.class, Response.class})
 @SpringBootConfiguration
