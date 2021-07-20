@@ -354,3 +354,10 @@ curl --location --request POST 'http://localhost:8080/exampleFunction' \
   }'
 ```
 
+## Reference
+1. [Spring Cloud Functions Reference](https://docs.spring.io/spring-cloud-function/docs/current/reference/html/aws.html)
+2. [Spring Native documentation](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/)
+3. [Spring Cloud Function Native Images](https://spring.io/blog/2020/05/04/spring-cloud-function-native-images)   
+4. [Spring Tips: Spring Native 0.10.0 by Josh Long](https://www.youtube.com/watch?v=JsUAGJqdvaA&t=3687s)
+5. [spring-projects-experimental](https://github.com/spring-projects-experimental/spring-native/tree/main/samples/cloud-function-aws)
+6. [Functional Bean Definitions](https://cloud.spring.io/spring-cloud-static/spring-cloud-function/2.0.0.RELEASE/multi/multi__functional_bean_definitions.html)
